@@ -10,7 +10,7 @@
     (get-in (client/get url {:as :json-strict}) [:body :main])))
 
 (defroutes app-routes
-  (GET "/" [] {:headers {"Content-Type" "application/json;charset=utf-8"}
+  (GET "/api/weather" [] {:headers {"Content-Type" "application/json;charset=utf-8"}
                :body (weather)})
   (route/not-found "Not Found"))
 
