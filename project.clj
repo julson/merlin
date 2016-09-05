@@ -10,6 +10,7 @@
                  [ring/ring-defaults "0.2.0"]
                  [ring/ring-json "0.4.0"]
                  [clj-http "2.1.0"]
+                 [cljs-ajax "0.5.8"]
                  [figwheel "0.5.6"]
                  [reagent "0.6.0-rc"]]
 
